@@ -1,0 +1,12 @@
+{
+  "name": "siphon",
+  "version": "1.0.0",
+  "description": "Find the charges that quietly drain your money.",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  }
+}
